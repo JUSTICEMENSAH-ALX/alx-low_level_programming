@@ -1,19 +1,22 @@
-include "main.h"
+#include "main.h"
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - Print "_putchar" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
  */
+
 int main(void)
 {
-	putchar('');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char myVar[] = "_putchar";
+	int i = 0;
+
+	while (myVar[i] != '\0')
+	{
+		_putchar(myVar[i]);
+		i++;
+	}
 	_putchar('\n');
+
 	return (0);
 }
