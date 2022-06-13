@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
  * _strlen - check the code for Holberton School students.
  * @s: is a pointer int char type
