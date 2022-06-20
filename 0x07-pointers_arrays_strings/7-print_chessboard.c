@@ -2,23 +2,18 @@
 
 /**
  * print_chessboard - print the chessboard, 2d array
- * @a: 2d array of chars
+ * @a: The chessboard to be printed.
  */
 
 void print_chessboard(char (*a)[8])
 {
-	int y, x;
+	int index1, index2;
 
-	y = 0;
-	while (y < 8)
+	for (index1 = 0; a[index1][7]; index1++)
 	{
-		x = 0;
-		while (x < 8)
-		{
-			_putchar(a[y][x]);
-			x++;
-		}
+		for (index2 = 0; index2 < 8; index2++)
+			_putchar(a[index1][index2]);
+
 		_putchar('\n');
-		y++;
 	}
 }
