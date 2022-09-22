@@ -111,7 +111,7 @@ Sorting algorithms animations
 C programming projects
 
                    ALX
- <<<<<<<<<<>>>>>>>>>>>>>>>><<<<<<<<<>>>>>>>>>>>>>/|\
+AAAAAAAAAAAAAAAAAAAAAAAAAAAALLLLLLLLLLLLLLLLLLLLLLLLLLLLLLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX <<<<<<<<<<>>>>>>>>>>>>>>>><<<<<<<<<>>>>>>>>>>>>>/|\
 
 
 
