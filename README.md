@@ -100,17 +100,18 @@ What is a doubly linked list
 21. 0x17. C - Dynamic libraries
 What is the difference between Dynamic and Static Libraries/Linking
 Shared Libraries
-22. 0x18. C - LIFO FIFO Stack and Queue 0x19-hash_tables
+22. 0x18. C - LIFO FIFO Stack and Queue 
+23. 0x1A.C-hash_tables
 HashTable Data Structure - Intro Hash table Hash function Hash functions
-0x1A-sorting_algorithms. C - Sorting algorithms & Big O
+24. 0x1B. C-sorting_algorithms. C - Sorting algorithms & Big O
 Sorting algorithm
 Big O notation
 Sorting algorithms animations
 15 Sorting algorithms in 6 minutes
 C programming projects
 
-                  ALX
-<<<<<<<<<<>>>>>>>>>>>>>>>><<<<<<<<<>>>>>>>>>>>>>/|\
+                   ALX
+ <<<<<<<<<<>>>>>>>>>>>>>>>><<<<<<<<<>>>>>>>>>>>>>/|\
 
 
 
