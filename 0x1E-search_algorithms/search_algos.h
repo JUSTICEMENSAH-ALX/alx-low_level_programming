@@ -2,9 +2,7 @@
 #define SEARCH_ALGOS_H
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
-
-/* struct for task 12 */
+#include <math.h>
 
 /**
  * struct listint_s - singly linked list
@@ -14,16 +12,13 @@
  * @next: Pointer to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
  */
 typedef struct listint_s
 {
-	int n;
-	size_t index;
-	struct listint_s *next;
+    int n;
+    size_t index;
+    struct listint_s *next;
 } listint_t;
-
-/* struct for task 13 */
 
 /**
  * struct skiplist_s - Singly linked list with an express lane
@@ -34,21 +29,18 @@ typedef struct listint_s
  * @express: Pointer to the next node in the express lane
  *
  * Description: singly linked list node structure with an express lane
- * for Holberton project
  */
 typedef struct skiplist_s
 {
-	int n;
-	size_t index;
-	struct skiplist_s *next;
-	struct skiplist_s *express;
+    int n;
+    size_t index;
+    struct skiplist_s *next;
+    struct skiplist_s *express;
 } skiplist_t;
 
-/* functions for mandatory tasks */
+
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
-
-/* functions for advanced tasks */
 int jump_search(int *array, size_t size, int value);
 int interpolation_search(int *array, size_t size, int value);
 int exponential_search(int *array, size_t size, int value);
